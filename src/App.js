@@ -5,16 +5,9 @@ import { Fleet } from "./Fleet";
 import { About } from "./About";
 import { EmailForm } from "./Contact";
 
-import ReactGA from "react-ga";
-import RouteChangeTracker from "./RouteChangeTracker";
-
-const TRACKING_ID = "G-6D51EZEENY"; // OUR_TRACKING_ID
-ReactGA.initialize(TRACKING_ID);
-
 function App() {
   return (
     <div>
-      <RouteChangeTracker />
       <Header />
 
       <Routes>
