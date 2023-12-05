@@ -7,6 +7,7 @@ import { EmailForm } from "./Contact";
 
 import ReactGA from "react-ga";
 import RouteChangeTracker from "./RouteChangeTracker";
+import { Switch } from "react-router-dom/cjs/react-router-dom.min";
 const TRACKING_ID = "G-6D51EZEENY"; // OUR_TRACKING_ID
 ReactGA.initialize(TRACKING_ID);
 
@@ -16,12 +17,12 @@ function App() {
       <RouteChangeTracker />
       <Header />
 
-      <Routes>
+      <Switch>
         <Route path="/home" element={<Home />} />
         <Route path="/fleet" element={<Fleet />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<EmailForm />} />
-      </Routes>
+      </Switch>
     </div>
   );
 }
