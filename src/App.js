@@ -1,4 +1,4 @@
-import { Routes, Route } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 import { Header } from "./Header";
 import { Home } from "./Home";
 import { Fleet } from "./Fleet";
@@ -7,7 +7,7 @@ import { EmailForm } from "./Contact";
 
 import ReactGA from "react-ga";
 import RouteChangeTracker from "./RouteChangeTracker";
-import { Switch } from "react-router-dom/cjs/react-router-dom.min";
+
 const TRACKING_ID = "G-6D51EZEENY"; // OUR_TRACKING_ID
 ReactGA.initialize(TRACKING_ID);
 
