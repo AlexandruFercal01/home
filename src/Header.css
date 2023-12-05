@@ -1,0 +1,19 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255, 63, 63, 0.54);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8.5px);
+    -webkit-backdrop-filter: blur(8.5px);
+    border: 1px solid rgba(255, 63, 63, 0.35);
+}
+
+.title{
+    margin-left:3%;
+}
+
+.menu-btn{
+    margin-right:3%;
+}
+
