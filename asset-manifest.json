@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/home/static/css/main.e5b702fd.css",
+    "main.js": "/home/static/js/main.ebf1459a.js",
+    "static/js/879.83c3956b.chunk.js": "/home/static/js/879.83c3956b.chunk.js",
+    "static/js/787.0164e7b6.chunk.js": "/home/static/js/787.0164e7b6.chunk.js",
+    "static/media/skoda.png": "/home/static/media/skoda.538747ced4c553512cc8.png",
+    "static/media/bmw-3.png": "/home/static/media/bmw-3.ee1ad7bc4b12db87495f.png",
+    "static/media/s5.jpeg": "/home/static/media/s5.a68ca42a9ad34f661bda.jpeg",
+    "static/media/a3.png": "/home/static/media/a3.5ba55079f2496ef7dd5c.png",
+    "static/media/bmwx5.png": "/home/static/media/bmwx5.cddee8006a3022ba8014.png",
+    "static/media/instagram.png": "/home/static/media/instagram.e719d8b29f452a16302d.png",
+    "static/media/volvo.jpg": "/home/static/media/volvo.ab5f8d4d91c18c802a71.jpg",
+    "static/media/gls.jpeg": "/home/static/media/gls.3047cd8879a2690269a3.jpeg",
+    "static/media/Huracan.jpg": "/home/static/media/Huracan.25be2f84e72ecbe7d0e0.jpg",
+    "static/media/arteon.jpg": "/home/static/media/arteon.cd48675a70195f04bbd1.jpg",
+    "static/media/ferrari.jpg": "/home/static/media/ferrari.84292f957fbe5ce142a4.jpg",
+    "static/media/logo.png": "/home/static/media/logo.90289c1dfb1fd67d78e2.png",
+    "static/media/social.png": "/home/static/media/social.9f371608f849ae476557.png",
+    "index.html": "/home/index.html",
+    "main.e5b702fd.css.map": "/home/static/css/main.e5b702fd.css.map",
+    "main.ebf1459a.js.map": "/home/static/js/main.ebf1459a.js.map",
+    "879.83c3956b.chunk.js.map": "/home/static/js/879.83c3956b.chunk.js.map",
+    "787.0164e7b6.chunk.js.map": "/home/static/js/787.0164e7b6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e5b702fd.css",
+    "static/js/main.ebf1459a.js"
+  ]
+}
