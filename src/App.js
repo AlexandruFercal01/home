@@ -1,4 +1,4 @@
-import { Route, Switch } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import { Header } from "./Header";
 import { Home } from "./Home";
 import { Fleet } from "./Fleet";
@@ -17,12 +17,12 @@ function App() {
       <RouteChangeTracker />
       <Header />
 
-      <Switch>
+      <Routes>
         <Route path="/home" element={<Home />} />
         <Route path="/fleet" element={<Fleet />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<EmailForm />} />
-      </Switch>
+      </Routes>
     </div>
   );
 }

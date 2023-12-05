@@ -1,6 +1,5 @@
 import React from "react";
 
-import { withRouter } from "react-router-dom";
 import ReactGA from "react-ga";
 
 const RouteChangeTracker = ({ history }) => {
@@ -12,4 +11,4 @@ const RouteChangeTracker = ({ history }) => {
   return <div></div>;
 };
 
-export default withRouter(RouteChangeTracker);
+export default RouteChangeTracker;
